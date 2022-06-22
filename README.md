@@ -1,5 +1,5 @@
 # Data Visualization
-This repository contains visualizations created with Business Intelligence tools such as Power BI, or Python libraries (Seaborn, Matplotlib, Bokeh, etc.).
+This repository contains visualizations created with Business Intelligence tools such as Power BI, or Python libraries (Seaborn, Matplotlib, Bokeh, etc.). Working in progress ...
 
 
 ## Content of this Repository:
