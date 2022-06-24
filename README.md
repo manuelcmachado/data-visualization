@@ -9,7 +9,11 @@ This repository contains visualizations created with Business Intelligence tools
 ### Power BI Visualization
 **InternetSales20220614.pbix** is a simple Power BI visualization that demonstrates using dimension and fact tables from an OLAP system. In these case I am using the famous ***AdventureWorksDW2019*** database. The file consists of two basic pages:
 - *InternetSalesDashboard*: A basic dashboard which gives the user a quick overview of key business indicators. In this case, sales.
-- *InternetSalesTable*: A basic report featuring a table and some slicers which gives the user the ability to select what he wants to see. 
-
 ![Dashboard](InternetSalesDashboard.png)
-![InternetSalesDashboard](https://user-images.githubusercontent.com/28549770/175456221-e02691ef-584f-45c4-8f91-05580e7ab1d6.png)
+
+- *InternetSalesTable*: A basic report featuring a table and some slicers which gives the user the ability to select what he wants to see. 
+![Internet Sales Dashboard](InternetSalesReportDetails.PNG)
+
+And this is the data model used to build the InternetSales visualization. Note the star schema depicted below. There is one Fact table: FactInternetSales, and three Dimension tables: DimProduct, DimSalesTerritory, and DimCurrency. 
+
+![Data Model](InternetSalesDataModelPNG.PNG)
